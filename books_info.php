@@ -2,8 +2,6 @@
 include "bootstrap_cdn.php";
 include "navbar.html";
 include "connection.php";
-
-
 ?>
 
 <style>
@@ -50,9 +48,6 @@ include "connection.php";
           echo "NO ROW TO DISPLAY";
         }
         // ****************************
-
-
-
         ?>
         </tbody>
       </table>

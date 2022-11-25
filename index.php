@@ -7,6 +7,7 @@ error_reporting(0);
 // ****************************
 
 // ****************************
+// INSERT DATA
 $book_name = $_POST['bookname'];
 $book_author = $_POST['bookauthor'];
 $book_price = $_POST['bookprice'];
@@ -36,7 +37,6 @@ if(!isset($submit) && empty($book_name) || empty($book_author) || empty($book_pr
 ?>
 
 <!-- Form -->
-<!-- <br> -->
 <form action="<?php $_SERVER['PHP_SELF'] ?>" method="POST">
     <div class="container my-5">
         <h2 class="heading">Add books to the Library</h2><br>
