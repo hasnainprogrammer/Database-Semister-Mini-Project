@@ -68,7 +68,7 @@ if(isset($submit)){
         </div>
 
         <div class="mb-3">
-            <input type="submit" name="submit" value="Save" class="form-control bg-primary text-white" id="exampleFormControlInput1">
+            <input type="submit" name="submit" value="Update" class="form-control bg-primary text-white" id="exampleFormControlInput1">
         </div>
     </div>
 </form>

@@ -31,9 +31,6 @@ if(!isset($submit) && empty($book_name) || empty($book_author) || empty($book_pr
     }
 }
 // ****************************
-
-
-
 ?>
 
 <!-- Form -->
